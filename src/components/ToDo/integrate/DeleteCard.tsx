@@ -20,7 +20,7 @@ export const DeleteCard = ({ setCards }: DelProps) => {
     const cardId = e.dataTransfer.getData("cardId");
     setCards &&
       setCards((prev) => [...prev].filter((item) => item.id !== cardId));
-    console.log(cardId, "cardId");
+    setActive(false);
   };
 
   return (

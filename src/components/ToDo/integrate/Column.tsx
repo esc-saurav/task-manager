@@ -70,7 +70,7 @@ const Column = ({
         </span>
       </div>
       <div
-        className={`h-full w-full transition-colors ${
+        className={`h-full space-y-1 w-full transition-colors ${
           active ? "bg-neutral-800/50" : "bg-neutral-800/0"
         }`}
       >
