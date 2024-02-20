@@ -45,7 +45,7 @@ const Column = ({
     const findedCard = allCards.find((item) => item.id === cardID);
     if (findedCard) {
       findedCard.column = column;
-      allCards = allCards.filter((item) => item.id !== column);
+      allCards = allCards.filter((item) => item.id !== column);  //cardID
       setCards(allCards);
       setActive(false);
     }

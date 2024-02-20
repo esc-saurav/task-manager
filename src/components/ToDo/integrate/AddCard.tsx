@@ -20,6 +20,7 @@ export const AddCard = ({ setCards, column }: any) => {
       column: column,
     };
     setCards((prev: any) => [...prev, newCard]);
+    setText("");
     setActive(false);
   };
 
